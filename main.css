@@ -23,10 +23,17 @@ body,html{
 .pare2{
     display: none;
 }
-img{
-    display: none;
-    height: 0px;
-    width: 0px;
+img{position: fixed;
+   right: 19%;
+    height: 4em;
+   transform: rotateZ(90deg);
+   z-index: 3;
+    width: auto;
+    bottom: 0;
+}
+#scrollUp{
+  
+    bottom: 90%;
 }
 .con{
  
@@ -38,10 +45,11 @@ padding-right: 26%;
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    border: solid 1px brown;
+
 
 
 }
+
 .con :nth-child(1){
     font-size: 2em;
     font-weight: bold;
@@ -286,9 +294,7 @@ width: 20%;
     .pare2{
         display: none;
     }
-    img{
-        display: none;
-    }
+  
 }
 @media screen and (max-width:600px){
     .con :nth-child(2){
@@ -402,12 +408,17 @@ opacity: 0;
         
     }
     #scrollUp{
-        left:0px
+        left:0px;
+     
+      bottom: 20%;
+        transform: rotateZ(-0deg);
     }
     img{
         z-index: 2;
         position:fixed;
         right: 0px;
+
+        transform: rotateZ(-0deg);
         bottom: 20%;
         width: auto;
         padding: 1em;
