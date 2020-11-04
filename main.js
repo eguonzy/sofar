@@ -349,8 +349,10 @@ setInterval(() => {
   window.onscroll = () => {
     if (window.scrollY < window.innerHeight) {
       a.style.color = "blue";
+      scrollUp.style.display = "none";
     } else {
       a.style.color = "#ffffff";
+      scrollUp.style.display = "block";
     }
     if (
       window.scrollY >= window.innerHeight &&
@@ -438,8 +440,11 @@ setInterval(() => {
       window.scrollY < window.innerHeight * 12
     ) {
       l.style.color = "blue";
+      scrollBtn.style.display = "none";
     } else {
       l.style.color = "#ffffff";
+
+      scrollBtn.style.display = "block";
     }
   };
   // if (window.screen.width < 460) {
