@@ -37,7 +37,10 @@ let page = document.querySelector("body");
 
 scrollBtn.addEventListener("click", () => {
   if (window.scrollY < window.innerHeight) {
-    scrollTo(0, window.innerHeight + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 1 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight);
     }, 600);
@@ -46,7 +49,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight &&
     window.scrollY < window.innerHeight * 2
   ) {
-    scrollTo(0, window.innerHeight * 2 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 2 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 2);
     }, 600);
@@ -55,7 +61,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 2 &&
     window.scrollY < window.innerHeight * 3
   ) {
-    scrollTo(0, window.innerHeight * 3 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 3 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 3);
     }, 600);
@@ -64,7 +73,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 3 &&
     window.scrollY < window.innerHeight * 4
   ) {
-    scrollTo(0, window.innerHeight * 4 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 4 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 4);
     }, 600);
@@ -73,7 +85,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 4 &&
     window.scrollY < window.innerHeight * 5
   ) {
-    scrollTo(0, window.innerHeight * 5 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 5 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 5);
     }, 600);
@@ -82,7 +97,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 5 &&
     window.scrollY < window.innerHeight * 6
   ) {
-    scrollTo(0, window.innerHeight * 6 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 6 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 6);
     }, 600);
@@ -91,7 +109,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 6 &&
     window.scrollY < window.innerHeight * 7
   ) {
-    scrollTo(0, window.innerHeight * 7 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 7 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 7);
     }, 600);
@@ -100,7 +121,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 7 &&
     window.scrollY < window.innerHeight * 8
   ) {
-    scrollTo(0, window.innerHeight * 8 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 8 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 8);
     }, 600);
@@ -109,7 +133,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 8 &&
     window.scrollY < window.innerHeight * 9
   ) {
-    scrollTo(0, window.innerHeight * 9 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 9 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 9);
     }, 600);
@@ -118,7 +145,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 9 &&
     window.scrollY < window.innerHeight * 10
   ) {
-    scrollTo(0, window.innerHeight * 10 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 10 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 10);
     }, 600);
@@ -127,7 +157,10 @@ scrollBtn.addEventListener("click", () => {
     window.scrollY >= window.innerHeight * 10 &&
     window.scrollY < window.innerHeight * 11
   ) {
-    scrollTo(0, window.innerHeight * 11 + 20);
+    scrollBy(0, -50);
+    setTimeout(() => {
+      scrollTo(0, window.innerHeight * 11 + 20);
+    }, 300);
     setTimeout(() => {
       scrollTo(0, window.innerHeight * 11);
     }, 600);
@@ -135,50 +168,88 @@ scrollBtn.addEventListener("click", () => {
 });
 scrollUp.addEventListener("click", () => {
   if (window.scrollY <= window.innerHeight) {
-    scrollTo(0, 0 + 20);
-    setTimeout(() => {
-      scrollTo(0, 0);
-    }, 600);
+    scrollTo(0, 0);
+
     return;
   }
   if (
     window.scrollY >= window.innerHeight &&
     window.scrollY <= window.innerHeight * 2
   ) {
-    scrollTo(0, window.innerHeight * 1 + 20);
-    setTimeout(() => {
-      scrollTo(0, window.innerHeight);
-    }, 600);
+    scrollTo(0, window.innerHeight);
+
     return;
   }
   if (
     window.scrollY >= window.innerHeight * 2 &&
     window.scrollY <= window.innerHeight * 3
   ) {
-    scrollTo(0, window.innerHeight * 2 + 20);
-    setTimeout(() => {
-      scrollTo(0, window.innerHeight * 2);
-    }, 600);
+    scrollTo(0, window.innerHeight * 2);
+
     return;
   }
   if (
     window.scrollY >= window.innerHeight * 3 &&
     window.scrollY <= window.innerHeight * 4
   ) {
-    scrollTo(0, window.innerHeight * 3 + 20);
-    setTimeout(() => {
-      scrollTo(0, window.innerHeight * 3);
-    }, 600);
+    scrollTo(0, window.innerHeight * 3);
+
     return;
   }
   if (
     window.scrollY >= window.innerHeight * 4 &&
     window.scrollY <= window.innerHeight * 5
   ) {
-    scrollTo(0, window.innerHeight * 4 + 20);
-    setTimeout(() => {
-      scrollTo(0, window.innerHeight * 4);
-    }, 600);
+    scrollTo(0, window.innerHeight * 4);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 5 &&
+    window.scrollY <= window.innerHeight * 6
+  ) {
+    scrollTo(0, window.innerHeight * 5);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 6 &&
+    window.scrollY <= window.innerHeight * 7
+  ) {
+    scrollTo(0, window.innerHeight * 6);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 7 &&
+    window.scrollY <= window.innerHeight * 8
+  ) {
+    scrollTo(0, window.innerHeight * 7);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 8 &&
+    window.scrollY <= window.innerHeight * 9
+  ) {
+    scrollTo(0, window.innerHeight * 8);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 9 &&
+    window.scrollY <= window.innerHeight * 10
+  ) {
+    scrollTo(0, window.innerHeight * 9);
+
+    return;
+  }
+  if (
+    window.scrollY >= window.innerHeight * 10 &&
+    window.scrollY <= window.innerHeight * 11
+  ) {
+    scrollTo(0, window.innerHeight * 10);
+
     return;
   }
   console.log(window.scrollY);
@@ -261,21 +332,19 @@ la.addEventListener("click", () => {
 l.addEventListener("click", () => {
   scrollFunc(11, y);
 });
+// handles the scroll to a specific month
 const scrollFunc = (page, o) => {
   scrollBy(0, -50);
   setTimeout(() => {
     scrollTo(0, window.innerHeight * page + 20);
-    o.setAttribute("class", "cascade");
   }, 300);
   setTimeout(() => {
     scrollTo(0, window.innerHeight * page);
-    o.setAttribute("class", "cascade");
   }, 500);
-  setTimeout(() => {
-    o.setAttribute("class", "notCascade");
-  }, 10000);
+  setTimeout(() => {}, 10000);
 };
 window.onscroll = () => {};
+//change colors of months as they scroll into view
 setInterval(() => {
   window.onscroll = () => {
     if (window.scrollY < window.innerHeight) {

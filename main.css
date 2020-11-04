@@ -221,27 +221,27 @@ color:#ffffff
 }
 .january{
     background-image: url("./images//mikael-kristenson-kOik-r4I3QY-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .february{
     background-image: url("./images//florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .march{
     background-image: url("./images//fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .april{
     background-image: url("./images//nathan-dumlao-EdULZpOKsUE-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .may{
     background-image: url("./images//zoriana-stakhniv-PUVgHyBgZn8-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .june{
@@ -252,32 +252,32 @@ color:#ffffff
 }
 .july{
     background-image: url("./images//ferenc-almasi-L8KQIPCODV8-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .august{
     background-image: url("./images//kendal-L4iKccAChOc-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .september{
     background-image: url("./images//louis-tsai-lqcvMiBABHw-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .october{
     background-image: url("./images//tobi-oshinnaike-MtNEziYlm2U-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .november{
     background-image: url("./images//john-towner-3Kv48NS4WUU-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 .december{
     background-image: url("./images/paolo-bendandi-CU_tgif9PTg-unsplash.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: repeat;
 }
 @media screen and (max-width:900px){
